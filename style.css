@@ -1,0 +1,788 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#2c2c2c ;
+    padding: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.385);
+    position: fixed;
+    width: 100vw;
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    margin-left: 45px;
+}
+.cyber{
+    color: #0084ff;
+}
+.store{
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 35px;
+}
+li{
+  padding: 20px;
+  list-style: none;
+  text-transform: uppercase;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+  background-color: #0084ff97;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+i{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.i-produtos-selecionados{
+   color: #0084ff;
+}
+main{
+   background-color: #c7c7c7;
+   display: flex;
+   padding: 40px;
+   justify-content: space-around;
+   height: 100%;
+   align-items: center;
+}
+#main-title{
+   font-size: 50px;
+   font-weight: bold;
+}
+main img{
+    height: 450px;
+    margin-top: 80px;
+}
+
+main p{
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 10px;
+}
+#box-btn-1{
+    display: flex;
+    justify-content: start;
+    width: 490px;
+}
+#btn-1{
+    padding: 15px;
+    width: 170px;
+    background-color: #0084ff;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+    font-size: 15px;
+}
+#btn-1:hover{
+   cursor: pointer;
+}
+
+#main-left{
+   margin-top: 100px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   text-align: start;
+}
+img{
+    height: 380px;
+}
+footer img{
+    height: 35px;
+}
+article{
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: center; 
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.433);   
+}
+.computers img{
+   height: 260px;
+}
+.computers{
+  padding: 40px;
+}
+.computers > img:hover{
+    cursor: pointer;
+}
+#t-sel{
+    font-size: 150%;
+    font-weight: bold;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #c7c7c7;
+}
+#t-sel > p{
+    margin-top: 20px;
+    border-bottom: 3px solid #0084ff;
+    border-width: 5px;
+}
+aside{
+    background-color: #c7c7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.selecionados{
+  height: 250px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.selecionados:hover{
+  cursor: pointer;
+  margin-top: 5px;
+  transition: 0.2s;
+} 
+.selecionados > img{
+    height: 250px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.p-sel{
+   margin-left: 22px;
+   font-weight: bold;
+}
+#div-p-ultimos{
+    font-size: 150%;
+    font-weight: bold;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #c7c7c7;
+    padding: 30px;
+}
+#p-ultimos{
+    background-color: #c7c7c7;
+    margin-top: 30px;
+    border-bottom: 3px solid #0084ff;
+    border-width: 5px;
+    width: 266px;
+    font-size: 32px;
+    
+}
+section{
+    background-color: #c7c7c7;
+    padding: 30px;
+    height: 780px;
+}
+
+#ultimos-cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    padding-bottom: 10px; 
+}
+#ultimos-baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px ;
+    margin-top: 50px;
+}
+.ultimos {
+    height: 270px;
+    padding: 30px;
+}
+.ultimos > img{
+    height: 270px;
+}
+
+.ultimos:hover{
+  cursor: pointer;
+  margin-top: 5px;
+  transition: 0.2s;
+}
+.p-ult{
+    font-weight: bold;
+}
+#parte-do-relogio{
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+#relogio-1 > img{
+    height: 350px;
+}
+#relogio-right{
+    color: white;
+    text-align: start;
+}
+#relogio-right > h2{
+    font-size: 45px ;
+    text-align: start;
+    padding: 10px;
+}
+#relogio-right > p{
+   font-size: 125%;
+   text-align: start;
+   padding: 10px;
+   padding-bottom: 25px;
+}
+#btn-2{
+    padding: 15px;
+    width: 170px;
+    background-color: #0084ff;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+    font-size: 15px;
+    margin-left: 15px;
+}
+#btn-2:hover{
+    cursor: pointer;
+}
+#avaliações{
+    background-color: #c7c7c75f;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.avaliadores{
+   width: 250px;
+   padding: 20px;
+   box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.271);
+   border: 1px solid rgba(0, 0, 0, 0.325);
+   text-align: center;
+   border-radius: 5px;
+   background-color: white;
+}
+.avaliadores:hover{
+    margin-bottom: 18px;
+    transition: 0.4s;
+}
+h3{
+    padding: 15px;
+}
+.i-avaliadores{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0084ff;
+}
+.i-avl-avaliadores{
+    color: #0084ff;
+}
+footer{
+    background-color: #2c2c2c;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#p-foot{
+    font-weight: 100;
+}
+#nome{
+    color: white;
+    font-weight: bold;
+}
+#nome:hover{
+    color: #0084ff;
+    text-decoration: underline;
+}
+#download > p{
+    padding: 8px;
+    font-weight: bold;
+}
+#download > img:hover{
+    cursor: pointer;
+}
+
+/* media queries */
+
+/* Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more */
+
+@media (max-width: 1300px) {
+    .ultimos > img{
+        height: 250px;
+    }
+
+    main img{
+        height: 350px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 1244px) {
+    .ultimos > img{
+        height: 200px;
+    }
+
+    main img{
+        height: 300px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+.computers img{
+    height: 200px;
+ }
+ .selecionados > img{
+    height: 200px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+ aside{
+    height: 300px;
+    padding-bottom: 0;
+ }
+ #p-ultimos{
+    margin: 0px;
+ }
+ .ultimos > img{
+    height: 180px;
+}
+section{
+    height: 700px;
+}
+#parte-do-relogio{
+    height: 400px;
+}
+#avaliações{
+    height: 400px;
+    font-size: 80%;
+}
+.avaliadores{
+    width: 210px;
+    height: 300px;
+}
+#p-foot{
+    font-size: 66%;
+}
+.i-produtos-selecionados{
+    display: none;
+}
+}
+
+@media (max-width: 999px) {
+    #main-title{
+        font-size: 38px;
+        font-weight: bold;
+     }
+     main p{
+        font-size: 14px;
+        padding: 20px;
+        margin-left: 10px;
+    }
+    #box-btn-1{
+        display: flex;
+        justify-content: start;
+        width: 370px;
+   }
+    #relogio-right{
+        font-size: 80%;
+   }
+   #relogio-1 > img{
+    height: 280px;
+   }
+   #ultimos-baixo{
+    margin: 10px;
+   }
+   section{
+    height: 600px;
+    padding: 18px;
+   }
+   #ultimos-cima{
+    height: 280px;
+   }
+   .ultimos {
+    height: 270px;
+    padding: 15px;
+    }
+    .selecionados{
+        margin-bottom: 10px;
+    }
+    .selecionados > img{
+        padding: 12px;
+        padding-bottom: 0;
+    }
+    #p-foot{
+        width: 200px;
+    }
+}
+ 
+@media(max-width: 900px) {
+    #notebook-1 > img{
+      margin-top: 80;
+      height: 250px;
+    }
+    aside{
+        display: flex;
+    }
+    main{
+        padding: 20px;
+    }
+    #main-title{
+        font-size: 33px;
+    }
+    main p{
+        margin: 0;
+        width: 370px;
+        font-size: 12px;
+    }
+    #box-btn-1{
+        width: 330px;
+    }
+    .computers > img{
+        height: 160px;
+    }
+    a{
+        font-size: 80%;
+    }
+    }
+      
+    @media (max-width: 860px) {
+        #f1-simulator{
+            display: none;
+        }
+        #xiaomi{
+            display: none;
+        }
+        #msi-gtx{
+            display: none;
+        }
+        .selecionados{
+            padding: 10px;
+        }
+        .ultimos{
+            padding: 25px;
+        }
+        #download{
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+        #download > p{
+            display: none;
+        }
+        footer{
+            height: 150px;
+            justify-content: space-around;
+        }
+        #footer-h1{
+            margin-left: 20px;
+            width: 190px;
+            font-size: 160%;
+            width: 140px;
+        }
+        .avaliadores{
+            width: 160px;
+            font-size: 80%;
+            height: 70%;
+        }
+        .i-avaliadores{
+           font-size: 35px;
+        }
+        #relogio-1 > img {
+           height: 250px;
+        }
+    }   
+        @media (max-width: 735px ){
+           a{
+            font-size: 60%;
+           }
+           footer{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 250px;
+           }
+           #footer-h1{
+            font-size: 200%;
+            margin-right: 20px;
+           }
+           #p-foot{
+            font-size: 80%;
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            justify-content: center;
+           }
+           #p-foot > a{
+             font-size: 110%;
+           }
+           #relogio-right{
+            font-size: 70%;
+           }
+           #art-pc-1{
+             display: none;
+           }
+    }
+    @media(max-width: 700px) {
+        #combo-gamer{
+            display: none;
+        }
+        .selecionados > img{
+            height: 220px;
+        }
+        #rog-phone{
+            display: none;
+        }
+        #cpu-max{
+            display: none;
+        }
+        .ultimos > img{
+            height: 210px ;
+        }
+        section{
+            height: 650px;
+        }
+        #notebook-1 > img{
+            height: 200px;
+        }
+        #main-title{
+            font-size: 160%;
+            text-align: start;
+        }
+        #main-left > p{
+           width: 290px;
+           font-size: 56%;
+           text-align: start;
+        }
+        #box-btn-1{
+            width: 250px ;
+           display: flex;
+           justify-content: start;
+        }
+        #btn-1{
+            padding: 10px;
+        }
+    .one,
+    .two,
+    .three{
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
+    }
+    #menu-hamburguer{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    #menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #0084ff;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu-section.on nav{
+        display: block;
+    }
+    #menu-section.on #menu-hamburguer{
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+    #menu-section.on #menu-hamburguer .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    #menu-section.on #menu-hamburguer .two{
+        opacity: 0;
+    }
+    #menu-section.on #menu-hamburguer .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+    #menu-section.on{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu-section.on nav ul{
+        text-align: center;
+        display: block;
+    }
+    #menu-section.on nav ul a{
+        transition-duration: 0.4s; 
+        font-size: 1.8rem;
+        line-height: 4rem;
+        display: block;
+    }
+    #relogio-right > p{
+        font-size: 100%;
+        width: 300px;
+        margin-left: 5px;
+    }
+    #relogio-right > h2{
+        font-size: 38px;
+    }
+    #btn-2{
+        padding: 10px;
+    }
+    nav{
+        display: none;
+    }
+    
+    }
+    @media(max-width: 590px) {
+       #relogio-1 > img{
+        height: 200px;
+       }
+       #avaliações{
+        display: flex;
+        flex-direction: column;
+        height: 970px;
+       }
+       .avaliadores{
+         width: 150px;
+         font-size: 80%;
+         height: 45%;
+         margin-top: 15px;
+         margin-bottom: 10px;
+       }
+       .i-avl-avaliadores{
+        font-size: 140%;
+       }
+       #btn-1{
+        width: 230px;
+        padding: 6px;
+       }
+       .selecionados > img{
+        height: 180px;
+       }
+       .ultimos > img{
+        height: 180px;
+       }
+       #relogio-right > h2{
+        font-size: 30px;
+    }
+    #relogio-right > p{
+        font-size: 90%;
+        width: 260px;
+    }
+    #parte-do-relogio{
+        height: 300px;
+    }
+    #head-h1{
+        margin: 10px;
+        font-size: 140%;
+    }
+    #p-foot{
+        width: 400px;
+        font-size: 60%;
+    }
+    }
+    @media(max-width: 550px) {
+        main{
+         display: flex;
+         flex-direction: column;
+        }
+      #notebook-1 > img{
+         margin-top: 20px;
+      }
+     #p-sel{
+        font-size: 60%;
+     }
+     .computers > img{
+        height: 120px
+     }
+     .selecionados > img{
+        height: 150px;
+     }
+     .ultimos > img{
+        height: 150px;
+     }
+      #parte-do-relogio{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+      #relogio-right > h2{
+        font-size: 41px;
+    }
+    #relogio-right > p{
+        font-size: 100%;
+        width: 300px;
+    }
+    #btn-2{
+        width: 230px;
+    }
+    }
+    @media(max-width: 405px){
+        section{
+            height: 580px;
+        }
+         #p-foot{
+            width: 300px;
+            font-size: 50%;
+         }
+         #p-ultimos {
+            font-size: 25px ;
+            text-align: center;
+         }
+         #cadeira-gamer{
+            display: none;
+         }
+         #xbox-one{
+            display: none;
+         }
+         #art-pc-2{
+            display: none;
+         }
+         #s-23{
+            display: none;
+         }
+         #ultimos-cima{
+            height: 260px;
+         }
+         .selecionados{
+            height: 220px;
+            margin: 0;
+         }
+         .computers > img{
+            height: 180px;
+         }
+    }
